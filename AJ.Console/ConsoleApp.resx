@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root xml:space="preserve">
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="Logo">
+		<value>Application based on AJ.Console (c) by Alexander Jung - https://github.com/ajdotnet/AJ.Console
+        </value>
+	</data>
+	<data name="Syntax">
+		<value>(no syntax specified)
+        </value>
+	</data>
+	<data name="SystemParameters">
+		<value>System parameter:
+		
+    @parameterfile      read arguments from file
+    !logfile            write output also to log file
+    /?|/h[help]         show help
+    /v[erbose]          show verbose output
+    /q[uiet]            show no output
+    /nologo             show no logo
+</value>
+	</data>
+	<data name="Error">
+		<value>Use /? for further information.
+        </value>
+	</data>
+	<data name="Help">
+		<value>No further help available.
+        </value>
+	</data>
+	<data name="Ex.CouldNotReadParameterFile">
+		<value>The parameter file '{0}' could no be read.</value>
+	</data>
+	<data name="Ex.InvalidArgumentsNull">
+		<value>Invalid argument: {0} is NULL.</value>
+	</data>
+	<data name="Ex.InvalidArgumentsMin">
+		<value>Invalid number of argument: {0} needs at least {1} value(s).</value>
+	</data>
+	<data name="Ex.InvalidArgumentsMax">
+		<value>Invalid number of argument: {0} supports {1} value(s) at most.</value>
+	</data>
+	<data name="Ex.UnknownSwitch">
+		<value>Unknown switch: {0}</value>
+	</data>
+	<data name="Ex.InvalidArguments">
+		<value>Invalid arguments: {0}</value>
+	</data>
+	<data name="Ex.LogfileCouldNotBeOpened">
+		<value>The log file '{0}' could no be opened.</value>
+	</data>
+</root>

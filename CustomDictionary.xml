@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Dictionary>
+    <Words>
+        <Recognized>
+            <Word>ajdotnet</Word>
+            <Word>github</Word>
+            <Word>param</Word>
+            <Word>logfile</Word>
+            <Word>nologo</Word>
+            <Word>parameterfile</Word>
+        </Recognized>
+    </Words>
+    <Acronyms>
+        <CasingExceptions>
+            <Acronym>ID</Acronym>
+        </CasingExceptions>
+    </Acronyms>
+</Dictionary>
+
