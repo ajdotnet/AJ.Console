@@ -508,7 +508,7 @@ namespace AJ.Console
             {
                 PrintLogoText();
                 PrintExceptionHierarchy(ex.InnerException);
-                if (string.IsNullOrEmpty(ex.Message))
+                if (!string.IsNullOrEmpty(ex.Message))
                     WriteLine(ShowLevel.Error, ex.Message);
                 WriteLine(ShowLevel.Warning, ErrorMessage);
                 ReturnValue = SpecialReturnValue.HandledException;
